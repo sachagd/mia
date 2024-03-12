@@ -14,7 +14,11 @@ namespace Celeste.Mod.Mia.InputAdder
         public static async Task<bool> MoveAsync(bool[] movements)
         {
             await LoadMoveFileAsync();
+<<<<<<< HEAD
             List<string> movementsCorresponding = new List<string>() { "L", "R", "D", "U", "G", "X", "J" };
+=======
+            List<string> movementsCorresponding = new List<string>() { "L", "R", "U", "D", "G", "X", "J" };
+>>>>>>> master/master
             StringBuilder movingTextBuilder = new StringBuilder();
             for (int i = 0; i < 7; i++)
             {
